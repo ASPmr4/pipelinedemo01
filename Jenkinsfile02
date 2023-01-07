@@ -5,10 +5,11 @@ Pipeline{
       stages {
           stage("echo"){
                steps{
-                   echo 'build stage'
-                 } 
+                  sh 'date'                 
+                  } 
 
              }
       }
 
 }
+ 
